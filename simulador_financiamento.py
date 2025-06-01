@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Parâmetros fixos
 financiamento_anual = 14_400_000
-dias_ano = 365
+dias_ano = 360
 financiamento_diario = financiamento_anual / dias_ano
 
 # Título do app
