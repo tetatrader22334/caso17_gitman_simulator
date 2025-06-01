@@ -1,4 +1,6 @@
+pip install streamlit matplotlib pandas
 import streamlit as st
+import matplotlib.pyplot as plt
 
 # Parâmetros fixos
 financiamento_anual = 14_400_000
@@ -22,6 +24,7 @@ st.write(f"**Necessidade média de financiamento:** R$ {necessidade_media:,.2f}"
 st.write(f"**Custo anual estimado:** R$ {custo_anual:,.2f}")
 
 # Gráfico
+fig, ax = plt.subplots()
 ax.bar(["Dívida Média", "Custo Anual"], [necessidade_media, custo_anual], color=["skyblue", "salmon"])
 ax.set_ylabel("Valor (R$)")
 ax.set_title("Impacto do Ciclo de Caixa e da Taxa de Juros")
