@@ -1,6 +1,4 @@
-
 import streamlit as st
-import matplotlib.pyplot as plt
 
 # Parâmetros fixos
 financiamento_anual = 14_400_000
