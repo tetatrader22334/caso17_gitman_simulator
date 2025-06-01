@@ -22,7 +22,7 @@ st.write(f"**Necessidade média de financiamento:** R$ {necessidade_media:,.2f}"
 st.write(f"**Custo anual estimado:** R$ {custo_anual:,.2f}")
 
 # Gráfico
-fig, ax = plt.subplots()
+fig, ax = subplots()
 ax.bar(["Dívida Média", "Custo Anual"], [necessidade_media, custo_anual], color=["skyblue", "salmon"])
 ax.set_ylabel("Valor (R$)")
 ax.set_title("Impacto do Ciclo de Caixa e da Taxa de Juros")
