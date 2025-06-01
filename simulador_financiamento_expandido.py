@@ -28,7 +28,7 @@ ciclos_selecionados = st.multiselect(
 
 # Constantes
 financiamento_anual = 14_400_000
-dias_ano = 365
+dias_ano = 360
 financiamento_diario = financiamento_anual / dias_ano
 
 # Cálculo e exibição
